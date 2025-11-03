@@ -1,36 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>K1NG BUSHMAN | Anime Universe</title>
-  <link rel="stylesheet" href="style.css">
-  <script defer src="script.js"></script>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>K1NGBUSHMAN | Anime Universe</title>
+<link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <h1>K1NG BUSHMAN</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="gallery.html">Gallery</a>
-      <a href="contact.html">Contact</a>
-    </nav>
-  </header>
+<header class="site-header">
+  <div class="brand">K1NGBUSHMAN</div>
+  <nav class="main-nav">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
 
-  <section class="hero">
-    <div class="overlay"></div>
-    <div class="hero-content">
-      <h2>Welcome to the Anime Universe</h2>
-      <p>Watch My Anime Edits on YouTube</p>
-      <a class="btn" href="https://youtube.com/@gamingwitk1ngbushman?si=FUxchNzkIwb8c_2m" target="_blank">🎮 Watch Now</a>
+<section class="hero">
+  <img src="header.jpg" alt="K1NGBUSHMAN header" class="hero-bg" />
+  <div class="hero-inner">
+    <h1>K1NGBUSHMAN<br /><span class="subtitle">ANIME UNIVERSE</span></h1>
+    <p class="tag">Just sharing my anime experience</p>
+    <div class="cta">
+      <a class="btn youtube" href="https://youtube.com/@gamingwitk1ngbushman?si=FUxchNzkIwb8c_2m" target="_blank">▶ Watch My Anime Edits on YouTube</a>
+      <a class="btn insta" href="https://www.instagram.com/k1ngbushman_the_third?igsh=YzE0NGpsdnNyZ3di">📸 Follow on Instagram</a>
     </div>
-    <!-- YouTube Embed for Cha-La Head-Cha-La -->
-    <iframe width="0" height="0" src="https://www.youtube.com/embed/qW3V5-0x0_0?autoplay=1&mute=1&loop=1&playlist=qW3V5-0x0_0" allow="autoplay"></iframe>
-  </section>
+    <div class="music-control">
+      <button id="musicToggle" title="Toggle Music">🔈 Music</button>
+    </div>
+  </div>
+  <iframe id="musicFrame" width="0" height="0" src="music.mp3" allow="autoplay"></iframe>
+</section>
 
-  <footer>
-    <p>© 2025 K1NG BUSHMAN | Anime Universe</p>
-  </footer>
+<main class="content">
+  <section class="intro">
+    <h2>Featured</h2>
+    <p>My Hero Academia · Tokyo Ghoul · JoJo's Bizarre Adventure · Golden Kamuy</p>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <p>© 2025 K1NGBUSHMAN | Anime Universe</p>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
